@@ -20,6 +20,8 @@ mvn clean install
 
 ### Run the WireMock Server (default port 8080)
 ```
+mvn exec:java
+or
 mvn exec:java -Dexec.mainClass=ngdemo_api_mock.Main
 ```
 
