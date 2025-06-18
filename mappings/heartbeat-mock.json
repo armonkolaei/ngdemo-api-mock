@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/heartbeat"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"message\": \"OK\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

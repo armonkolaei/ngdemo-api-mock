@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/employees"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"employees\": [\n  {\"first\": \"John\", \"last\": \"Doe\", \"email\": \"john.doe@example.com\"},\n  {\"first\": \"Jane\", \"last\": \"Smith\", \"email\": \"jane.smith@example.com\"}\n]}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
